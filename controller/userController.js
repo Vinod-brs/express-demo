@@ -49,6 +49,7 @@ const getProfile = async (req, res) => {
 
 
 const getAllProfile = async (req, res) => {
+   
     // const userId = req.params.userId
     try{
         const userExists = await User.find()
